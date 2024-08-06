@@ -50,8 +50,8 @@ const sendEmail = (e) => {
   emailjs
     .sendForm(
       "service_wabbzd7",
-      "template_mnp79fa",
-      "#contact-form",
+      "template_lfyna29",
+      contactForm,
       "kDdUJ_nIsziDQktv-"
     )
     .then(
